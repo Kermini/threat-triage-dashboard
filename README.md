@@ -73,26 +73,23 @@ While the data is simulated, the workflow is aligned with real security monitori
 
 ## Screenshots
 
-Add screenshots of the dashboard here to make the repository more portfolio-ready.
+The following screenshots highlight the core SOC-style workflow of the Threat Triage Dashboard, including event monitoring, filtering, and incident review.
 
-Suggested screenshots:
-- Main dashboard overview
-- Filtered event table
-- Incident detail panel with analyst notes
-- Charts section
-
-Example section layout:
-
-```md
 ### Dashboard Overview
+Displays high-level security metrics, severity distribution, and event trends to support rapid situational awareness.
 ![Dashboard Overview](./assets/screenshots/dashboard-overview.png)
 
+### Filtered Event View
+Demonstrates filtering by severity, event type, and source IP to isolate suspicious activity during triage.
+![Filtered Event View](./assets/screenshots/filtered-events.png)
+
 ### Incident Detail Panel
+Shows detailed event inspection, analyst note-taking, and status tracking for individual alerts.
 ![Incident Detail Panel](./assets/screenshots/incident-detail.png)
 
-### Filtered Event View
-![Filtered Event View](./assets/screenshots/filtered-events.png)
-```
+### Charts and Event Trends
+Visualizes event distribution, activity over time, and top source IPs to help identify patterns and anomalies.
+![Charts](./assets/screenshots/charts.png)
 
 ## How to Run Locally
 
