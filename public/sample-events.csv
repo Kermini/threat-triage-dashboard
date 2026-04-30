@@ -1,0 +1,4 @@
+timestamp,sourceIp,eventType,severity,status,notes,destination,protocol,port,description,rule
+2026-04-30T00:02:00Z,198.51.100.21,Failed Login,Medium,Open,,vm-win10-eastus,RDP,3389,Multiple failed RDP sign-ins from foreign IP,Windows SecurityEvent 4625 Spike
+2026-04-30T00:07:00Z,203.0.113.77,Port Scan,High,Open,,vm-linux-eastus,SSH,22,Sequential scan across exposed admin ports,NSG Flow Logs Port Sweep
+2026-04-30T00:11:00Z,45.155.205.14,Suspicious IP,High,Reviewed,Threat intel confirmed. Blocked at perimeter.,storage-eastus-public,HTTPS,443,Threat intel watchlist IP requested cloud storage endpoint,Sentinel TI Match

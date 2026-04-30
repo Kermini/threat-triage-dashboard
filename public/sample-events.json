@@ -1,0 +1,28 @@
+[
+  {
+    "timestamp": "2026-04-30T00:22:00Z",
+    "sourceIp": "185.243.218.90",
+    "eventType": "Brute Force",
+    "severity": "High",
+    "status": "Open",
+    "notes": "",
+    "destination": "vm-linux-eastus",
+    "protocol": "SSH",
+    "port": 22,
+    "description": "High-volume SSH brute-force activity detected against Linux host.",
+    "rule": "Syslog SSH Brute Force"
+  },
+  {
+    "timestamp": "2026-04-30T00:29:00Z",
+    "sourceIp": "104.244.72.115",
+    "eventType": "Denied Traffic",
+    "severity": "Low",
+    "status": "Open",
+    "notes": "",
+    "destination": "keyvault-eastus",
+    "protocol": "HTTPS",
+    "port": 443,
+    "description": "Denied request to sensitive cloud service after private endpoint hardening.",
+    "rule": "Zero Trust Private Endpoint Policy"
+  }
+]
